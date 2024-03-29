@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Showcase</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: #d3d3d3; /* Light grey background */
+        color: #0d6efd; /* Light blue font */
+      }
+      .navbar,
+      .footer {
+        background-color: #000080; /* Navy blue background */
+      }
+      .about-me {
+        max-width: 1024px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section class="about-me my-5 mx-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <!-- Optionally, you can include an image here if you have a professional photo -->
+            <img
+              src="assets/images/image.jpeg"
+              class="img-fluid rounded-circle"
+              alt="Ebenezer Owolabi"
+            />
+          </div>
+          <div class="col-lg-6 my-auto">
+            <h2>About Ebenezer Owolabi</h2>
+            <p>
+              Hello! I'm Ebenezer, a passionate Business major with a focus on
+              Accounting. At the age of 25, I've garnered a wealth of knowledge
+              and practical experience, driven by my enthusiasm for financial
+              expertise and entrepreneurial spirit.
+            </p>
+            <p>
+              Beyond the numbers, I have a dream to intertwine my business
+              acumen with my creative side. I aim to own a unisex salon where I
+              can foster a space of style, self-expression, and impeccable
+              service. My journey is one of diverse pursuits, reflecting my
+              belief that the world of business can beautifully coexist with the
+              artistry of personal care. I'm excited to chart a path in both
+              these realms and make a meaningful impact.
+            </p>
+            <p class="text-center">
+              <a
+                class="btn btn-primary"
+                href="assets/Resume.pdf"
+                target="_blank"
+              >
+                My Resume
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4 mt-3 mx-1">
+        <div class="col-md-6">
+          <div class="ratio ratio-16x9">
+            <video class="w-100" src="assets/images/intro.mp4" controls></video>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="ratio ratio-16x9">
+            <video
+              class="w-100"
+              src="assets/images/intro2.mp4"
+              controls
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-3 mt-auto">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
